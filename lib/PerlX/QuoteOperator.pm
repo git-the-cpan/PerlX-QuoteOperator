@@ -7,7 +7,7 @@ use Devel::Declare ();
 use Text::Balanced ();
 use base 'Devel::Declare::Context::Simple';
 
-our $VERSION = '0.04';
+our $VERSION = '0.06';
 our $qtype   = __PACKAGE__ . '::qtype';
 our $parser  = __PACKAGE__ . '::parser';
 our $debug   = __PACKAGE__ . '::debug';
@@ -106,7 +106,7 @@ PerlX::QuoteOperator - Create new quote-like operators in Perl
 
 =head1 VERSION
 
-Version 0.04
+Version 0.05
 
 
 =head1 SYNOPSIS
@@ -175,6 +175,8 @@ Probably not... at least in the example shown.  But things like this are certain
     
     my $content = qh( http://transfixedbutnotdead.com );   # does HTTP request
 
+NOTICE - As for version 0.05 (23rd Feb 2015), PerlX::QuoteOperator::URL was moved to its own distribution.
+
 And this:
 
     use PerlX::QuoteOperator qwHash => { 
@@ -219,7 +221,7 @@ This is a mandatory parameter.
 =head3 -parser
 
 If set then alternative parser kicks in.   This parser currenly works on single line of code only
-and must use a parenthesis, braces or same delimeter for beginning and end of quote:
+and must open/close quote with (), {}, [], <> or must have same delimeter for beginning and end of quote:
 
     -parser => 1
     
@@ -292,6 +294,11 @@ Recommendation: Stick with Perl parser and all will be fine!
 =back
 
 
+=head1 CONTRIBUTORS
+
+Toby Inkster (L<https://metacpan.org/author/TOBYINK>) for Text::Balanced patch to the alternative parser at 0.04
+
+
 
 =head1 AUTHOR
 
@@ -351,7 +358,7 @@ However I accept no liability I<whatsoever> should this software do what you exp
 
 =head1 COPYRIGHT & LICENSE
 
-Copyright 2009-2011 Barry Walsh (Draegtun Systems Ltd | L<http://www.draegtun.com>), all rights reserved.
+Copyright 2009-2015 Barry Walsh (Draegtun Systems Ltd | L<http://www.draegtun.com>), all rights reserved.
 
 This program is free software; you can redistribute it and/or modify it
 under the terms of either: the GNU General Public License as published
