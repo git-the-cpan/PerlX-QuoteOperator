@@ -5,7 +5,6 @@ author:
 build_requires:
   Test::More: '0'
 configure_requires:
-  Module::Build: '0.38'
   Module::Build::Tiny: '0.039'
 dynamic_config: 0
 generated_by: 'Dist::Zilla version 5.032, Dist::Milla version v1.0.14, CPAN::Meta::Converter version 2.143240'
@@ -25,11 +24,12 @@ no_index:
 requires:
   Devel::Declare: '0.006007'
   Text::Balanced: '0'
+  perl: '5.008005'
 resources:
   bugtracker: https://github.com/draegtun/PerlX-QuoteOperator/issues
   homepage: https://github.com/draegtun/PerlX-QuoteOperator
   repository: https://github.com/draegtun/PerlX-QuoteOperator.git
-version: '0.06'
+version: '0.07'
 x_contributors:
   - 'Barry Walsh <draegtun@googlemail.com>'
   - 'draegtun <draegtun@googlemail.com>'

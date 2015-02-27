@@ -7,7 +7,7 @@ use Devel::Declare ();
 use Text::Balanced ();
 use base 'Devel::Declare::Context::Simple';
 
-our $VERSION = '0.06';
+our $VERSION = '0.07';
 our $qtype   = __PACKAGE__ . '::qtype';
 our $parser  = __PACKAGE__ . '::parser';
 our $debug   = __PACKAGE__ . '::debug';
@@ -106,7 +106,7 @@ PerlX::QuoteOperator - Create new quote-like operators in Perl
 
 =head1 VERSION
 
-Version 0.05
+Version 0.07
 
 
 =head1 SYNOPSIS
@@ -306,10 +306,7 @@ Barry Walsh, C<< <draegtun at cpan.org> >>
 
 =head1 BUGS
 
-Please report any bugs or feature requests to C<bug-perlx-quoteoperator at rt.cpan.org>, or through
-the web interface at L<http://rt.cpan.org/NoAuth/ReportBug.html?Queue=PerlX-QuoteOperator>.  I will be notified, and then you'll
-automatically be notified of progress on your bug as I make changes.
-
+Please report any bugs or feature requests to L<https://github.com/draegtun/PerlX-QuoteOperator/issues>
 
 
 
@@ -324,7 +321,11 @@ You can also look for information at:
 
 =over 4
 
-=item * RT: CPAN's request tracker
+=item * Github issues & push requests
+
+L<https://github.com/draegtun/PerlX-QuoteOperator/issues>
+
+=item * Old resolved bugs can be found on RT: CPAN's request tracker
 
 L<http://rt.cpan.org/NoAuth/Bugs.html?Dist=PerlX-QuoteOperator>
 
@@ -339,6 +340,7 @@ L<http://cpanratings.perl.org/d/PerlX-QuoteOperator>
 =item * Search CPAN
 
 L<http://search.cpan.org/dist/PerlX-QuoteOperator/>
+L<https://metacpan.org/pod/PerlX::QuoteOperator/>
 
 =back
 

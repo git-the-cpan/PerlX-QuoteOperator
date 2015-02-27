@@ -4,7 +4,7 @@ NAME
 
 VERSION
 
-    Version 0.05
+    Version 0.07
 
 SYNOPSIS
 
@@ -223,11 +223,8 @@ AUTHOR
 
 BUGS
 
-    Please report any bugs or feature requests to bug-perlx-quoteoperator
-    at rt.cpan.org, or through the web interface at
-    http://rt.cpan.org/NoAuth/ReportBug.html?Queue=PerlX-QuoteOperator. I
-    will be notified, and then you'll automatically be notified of progress
-    on your bug as I make changes.
+    Please report any bugs or feature requests to
+    https://github.com/draegtun/PerlX-QuoteOperator/issues
 
 SUPPORT
 
@@ -237,7 +234,11 @@ SUPPORT
 
     You can also look for information at:
 
-      * RT: CPAN's request tracker
+      * Github issues & push requests
+
+      https://github.com/draegtun/PerlX-QuoteOperator/issues
+
+      * Old resolved bugs can be found on RT: CPAN's request tracker
 
       http://rt.cpan.org/NoAuth/Bugs.html?Dist=PerlX-QuoteOperator
 
@@ -252,6 +253,7 @@ SUPPORT
       * Search CPAN
 
       http://search.cpan.org/dist/PerlX-QuoteOperator/
+      https://metacpan.org/pod/PerlX::QuoteOperator/
 
 ACKNOWLEDGEMENTS
 
